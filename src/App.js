@@ -6,7 +6,7 @@ import { FunctionComponent } from './pages/FunctionComponent';
 function App () {
   return (
     <div className="App">
-      {/* <ClassComponent /> */}
+      <ClassComponent />
       <FunctionComponent />
     </div>
   );

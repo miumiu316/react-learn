@@ -23,6 +23,7 @@ export function FunctionComponent (props) {
   }, [])
   return (
     <div>
+      {console.log(1)}
       <h3>FunctionComponent</h3>
       <p>{date.toLocaleTimeString()}</p>
     </div>
