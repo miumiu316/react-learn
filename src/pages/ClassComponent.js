@@ -20,7 +20,7 @@ export default class ClassComponent extends Component {
   }
 
   //组件卸载前执行
-  componentWillMount () {
+  componentWillUnmount () {
     clearInterval(this.timer)
   }
 

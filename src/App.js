@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
 import ClassComponent from './pages/ClassComponent'
-import { FunctionComponent } from './pages/FunctionComponent';
+// import FunctionComponent3 from './pages/FunctionComponent3';
+//import UseMemoPage from './pages/UseMemoPage';
+// import UseCallbackPage from './pages/UseCallbackPage';
 
 function App () {
   return (
     <div className="App">
       <ClassComponent />
-      <FunctionComponent />
+      {/* <FunctionComponent3 /> */}
+      {/* <UseMemoPage /> */}
+      {/* <UseCallbackPage /> */}
     </div>
   );
 }
