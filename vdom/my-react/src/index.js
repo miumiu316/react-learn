@@ -1,17 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+import React from './myreact'
+let ReactDOM = React;
+let element = <div>
+  <h1 title="标题">我的react</h1>
+  <p>开始啦</p>
+  <a href='http://baidu.com'>跳转</a>
+</div>
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  element,
   document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
